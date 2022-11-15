@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "text": "Work",
+            "path": "/work"
+        },
+        {
+            "text": "Contact",
+            "path": "/contact"
+        },
+        {
+            "text": "Legal",
+            "path": "/legal"
+        }
+    ],
+    "socials": [
+        {
+            "icon": "bi bi-github",
+            "url": "https://github.com/smonolo"
+        },
+        {
+            "icon": "bi bi-twitter",
+            "url": "https://twitter.com/stmonolo"
+        }
+    ]
+}
