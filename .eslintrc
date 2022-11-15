@@ -1,0 +1,12 @@
+{
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "react-hooks/exhaustive-deps": "off",
+        "react/no-unescaped-entities": "off",
+        "react/jsx-key": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react/jsx-no-target-blank": "off",
+        "@next/next/no-img-element": "off",
+        "@next/next/no-title-in-document-head": "off"
+    }
+}
