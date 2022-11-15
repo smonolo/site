@@ -12,6 +12,10 @@ export const StyledProject = styled.div`
     box-sizing: border-box;
     margin-top: 25px;
 
+    &:last-child {
+        margin-bottom: 50px;
+    }
+
     & .name {
         font-size: 20px;
         font-weight: 500;

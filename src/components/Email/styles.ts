@@ -12,13 +12,17 @@ export const StyledEmail = styled.div`
     gap: 15px;
     margin-top: 25px;
 
+    &:last-child {
+        margin-bottom: 50px;
+    }
+
     & a {
         color: inherit;
         text-decoration: none;
     }
 
     & .button {
-        background-color: #008cff;
+        background-color: #0d0080;
         border-radius: 5px;
         padding: 6px 12px;
         box-sizing: border-box;
