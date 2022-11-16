@@ -39,3 +39,7 @@ body {
     color: #ed4245;
     margin-top: 20px;
 }
+
+.error.no-top {
+    margin-top: 0;
+}
