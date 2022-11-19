@@ -2,20 +2,20 @@ import styled from "@emotion/styled";
 
 export const StyledCard = styled.div`
     width: 100%;
-    padding: 40px;
+    padding: 35px 40px;
     box-sizing: border-box;
-    background-color: #1b1b1b;
+    background-color: #0a0a0f;
     border-radius: 10px;
     margin-top: 25px;
 
-    & > .card-title {
+    & .card-title {
         font-size: 24px;
         font-weight: 500;
         color: #fff;
     }
 
-    & > div {
-        color: #bbb;
+    & div {
+        color: #aaa;
 
         &.top {
             margin-top: 15px;
@@ -28,6 +28,19 @@ export const StyledCard = styled.div`
             & > i {
                 font-size: 14px;
             }
+        }
+    }
+
+    & > .map-flex {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+
+        & > .map {
+            border: none;
+            border-radius: 10px;
         }
     }
 `;

@@ -6,11 +6,11 @@ export const StyledProject = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 15px;
-    background-color: #1b1b1b;
-    padding: 30px;
+    background-color: #0a0a0f;
+    padding: 20px 30px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin-top: 25px;
+    margin-top: 20px;
 
     &:last-child {
         margin-bottom: 50px;
@@ -23,8 +23,7 @@ export const StyledProject = styled.div`
     }
 
     & .description {
-        color: #bbb;
-        margin-top: 5px;
+        color: #aaa;
     }
 
     & .flex {

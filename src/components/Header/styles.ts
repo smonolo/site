@@ -17,7 +17,7 @@ export const StyledGrid = styled.div`
         gap: 15px;
 
         & .item {
-            color: #bbb;
+            color: #aaa;
             transition: color .3s;
 
             &:hover, &.active {
