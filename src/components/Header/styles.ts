@@ -31,6 +31,10 @@ export const StyledGrid = styled.div`
             display: block;
         }
 
+        & i {
+            font-size: 16px;
+        }
+
         &:nth-child(1) {
             & > a {
                 display: block;
