@@ -12,10 +12,8 @@ export default function Home() {
             <Card>
                 <div className='card-title'>Me</div>
                 <div className='top'>
-                    I'm a frontend engineer at Moonsworth. Co-founder & CEO of Breeng, a new
-                    way of finding jobs. Also doing web and UI development for MAYDAY on
-                    the side. Previously frontend developer at ESL Gaming Online for Badlion Client
-                    and frontend engineer at Top.gg and Medal.
+                    I'm a frontend engineer at EVNT. Co-founder & CEO of Breeng.
+                    Previously at ESL Gaming Online for Badlion Client, Medal.tv for Top.gg and Moonsworth.
                 </div>
                 <div className='top'>
                     I started building websites {years} years ago. Unfortunately, the first ever
