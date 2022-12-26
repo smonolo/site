@@ -1,8 +1,12 @@
-import { Fragment, useEffect, useState } from "react";
+import {
+    Fragment,
+    useEffect,
+    useState
+} from "react";
 
-import Email from "../components/Email";
+import Email from "@components/Email";
 
-import { supabase } from "../lib/supabase";
+import { supabase } from "@lib/supabase";
 
 interface Email {
     id: number;

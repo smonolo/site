@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Fragment } from "react";
 
-import Card from "../components/Card";
+import Card from "@components/Card";
 
 export default function Home() {
     const years = new Date().getFullYear() - 2016;

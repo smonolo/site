@@ -32,7 +32,7 @@ export const StyledGrid = styled.div`
         }
 
         & i {
-            font-size: 16px;
+            font-size: 18px;
         }
 
         &:nth-child(1) {

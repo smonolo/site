@@ -1,9 +1,13 @@
-import { Fragment, useEffect, useState } from "react";
+import {
+    Fragment,
+    useEffect,
+    useState
+} from "react";
 
-import Project from "../components/Project";
+import Project from "@components/Project";
 
-import { ProjectProps } from "../components/Project/types";
-import { supabase } from "../lib/supabase";
+import { ProjectProps } from "@components/Project/types";
+import { supabase } from "@lib/supabase";
 
 export default function Work() {
     const [projects, setProjects] = useState<ProjectProps[]>([]);

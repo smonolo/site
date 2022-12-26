@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 import { StyledGrid } from "./styles";
 
 import { Social } from "./types";
-import { supabase } from "../../lib/supabase";
+import { supabase } from "@lib/supabase";
 
-import data from '../../data/header.json';
+import data from '@data/header.json';
 
 export default function Header() {
     const [socials, setSocials] = useState<Social[]>([]);
