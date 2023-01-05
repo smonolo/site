@@ -2,9 +2,9 @@ import styled from "@emotion/styled";
 
 export const StyledEmail = styled.div`
     width: 100%;
-    background-color: #0a0a0f;
+    background-color: rgb(14, 14, 16);
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 35px 30px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ export const StyledEmail = styled.div`
     }
 
     & .button {
-        background-color: #0d0080;
+        background-color: rgba(235, 235, 255, 0.05);
         border-radius: 5px;
         padding: 6px 12px;
         box-sizing: border-box;
@@ -30,7 +30,7 @@ export const StyledEmail = styled.div`
         transition: background-color .3s;
 
         &:hover {
-            background-color: #008cff;
+            background-color: rgba(235, 235, 255, 0.1);
         }
     }
 `;

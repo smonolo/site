@@ -4,13 +4,13 @@ export const StyledCard = styled.div`
     width: 100%;
     padding: 35px 40px;
     box-sizing: border-box;
-    background-color: #0a0a0f;
+    background-color: rgb(14, 14, 16);
     border-radius: 10px;
     margin-top: 25px;
 
     & .card-title {
         font-size: 24px;
-        font-weight: 500;
+        font-weight: 600;
         color: #fff;
     }
 

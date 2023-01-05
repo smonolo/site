@@ -14,14 +14,19 @@ export const StyledGrid = styled.div`
         height: 100%;
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 5px;
 
         & .item {
             color: #aaa;
-            transition: color .3s;
+            transition: color .3s, background-color .3s;
+            padding: 6px 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            background-color: transparent;
 
             &:hover, &.active {
                 color: #fff;
+                background-color: rgba(235, 235, 255, 0.1);
             }
         }
 
