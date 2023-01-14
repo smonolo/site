@@ -26,7 +26,12 @@ export const StyledGrid = styled.div`
 
             &:hover, &.active {
                 color: #fff;
-                background-color: rgba(235, 235, 255, 0.1);
+            }
+
+            &:not(i) {
+                &:hover, &.active {
+                    background-color: rgba(235, 235, 255, 0.1);
+                }
             }
         }
 
@@ -61,6 +66,7 @@ export const StyledGrid = styled.div`
 
         &:nth-child(3) {
             justify-content: flex-end;
+            gap: 0;
         }
     }
 `;
