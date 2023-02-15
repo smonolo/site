@@ -2,9 +2,9 @@ import styled from "@emotion/styled";
 
 export const StyledEmail = styled.div`
     width: 100%;
-    background-color: rgb(14, 14, 16);
+    border: 1px solid rgb(25, 25, 30);
     border-radius: 10px;
-    padding: 35px 30px;
+    padding: 25px 30px;
     box-sizing: border-box;
     display: flex;
     align-items: center;

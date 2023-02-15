@@ -4,7 +4,7 @@ export const StyledCard = styled.div`
     width: 100%;
     padding: 35px 40px;
     box-sizing: border-box;
-    background-color: rgb(14, 14, 16);
+    border: 1px solid rgb(25, 25, 30);
     border-radius: 10px;
     margin-top: 25px;
 

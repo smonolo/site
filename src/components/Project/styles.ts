@@ -6,8 +6,8 @@ export const StyledProject = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 15px;
-    background-color: rgb(14, 14, 16);
-    padding: 35px 30px;
+    border: 1px solid rgb(25, 25, 30);
+    padding: 30px;
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 20px;
