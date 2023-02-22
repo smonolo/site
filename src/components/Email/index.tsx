@@ -10,7 +10,7 @@ export default function Email(props: EmailProps) {
             {props.email}
             <Link href={`mailto:${props.email}`}>
                 <div className='button'>
-                    Send email <i className='bi bi-arrow-right' />
+                    <i className='bi bi-envelope' /> Send email
                 </div>
             </Link>
         </StyledEmail>
